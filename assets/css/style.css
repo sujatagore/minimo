@@ -1,0 +1,159 @@
+
+          /* header section css */
+
+.header{
+		padding:75px 0 100px;
+}
+
+.logo{
+	color:#000000;
+	font-size:30px;
+	font-weight:lighter;
+	text-transform:uppercase;
+	display:inline-block;
+	padding-top:15px;
+	transition:0.7s ease-in-out:
+}
+
+.logo:hover{
+	transform:skew(15deg);
+}
+
+.navbar ul{
+	display:inline-block;
+}
+
+.navbar ul li a{
+	color:#626262;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:16px;
+}
+
+.navbar ul li{
+	display:inline-block;
+	padding:20px;
+}
+
+.navbar a{
+	position:relative;
+}
+
+.navbar ul li:hover,
+.navbar ul li:focus,
+.navbar ul li:active{
+	background-color:yellow;
+}
+
+.navbar ul li.active {
+	background-color:orange;
+}
+
+.navbar a::after{
+	content:"";
+	position:absolute;
+	height:4px;
+	width:0;
+	left:0;
+	bottom:0;
+	background-color:red;
+	transition:all 0.7s ease-in-out;
+}
+
+.navbar a:hover::after{
+	width:100%;
+}
+
+.travel{
+	display:inline-block;
+	width:1162px;
+	height:510px;
+	object-fit:cover;
+	transition:all 0.7s linear;
+}
+
+.travel:hover{
+	transform:scale(0.1);
+}
+
+		/* section css */
+
+.lifestyle{
+	transition:all 0.7s linear;
+}
+
+.lifestyle:hover{
+	transform:scale(1.2);
+}
+		
+		
+		/*sec-section css */
+
+.sec-section{
+	background-color:#f0f0f0;
+}
+
+.sec-section .signup{
+	padding-top:75px;
+}
+
+.sec-section .form-group{
+	padding-bottom:75px;
+}
+
+.sec-section .signup .sec-heading{
+	margin-bottom:85px;
+}
+
+.email{
+	outline:none;
+	border-width:0 0 1px;
+	background-color:#f0f0f0;
+	position:relative;
+	width:90%;
+	cursor:pointer;
+}
+
+.email::placeholder{
+	color:#626262;
+}
+
+.email:focus{
+    box-shadow:0px 1px #626262;
+}
+.email-button{
+	border:none;
+    width:32px;
+    height:17px;
+    background-image:url("../images/send icon.png");
+    transition:0.3s linaer;
+}
+
+.email-button:hover {
+    cursor:pointer;
+    transform:scale(1.1);
+}
+
+.box{
+	width:160px;
+	height:60px;
+	border:1px solid black;
+	display:inline-block;
+	text-align:center;
+	padding:15px;
+	text-transform:capitalize;
+	font-size:20px;
+	cursor:pointer;
+	color:#626262;
+}
+
+.box:hover{
+	background-color:gold;
+}
+	
+
+		/* footer css */
+		
+.navbar{
+	cursor:pointer;
+}
